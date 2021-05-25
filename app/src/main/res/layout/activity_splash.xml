@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2c2c2c"
+    tools:context=".splash">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/bmifinall"
+            android:layout_centerInParent="true"
+            android:id="@+id/logo">
+        </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="BMI CALCULATOR"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/raleway"
+        android:textSize="20sp"
+        android:layout_below="@id/logo"
+        android:textColor="@color/white"
+        android:lineSpacingExtra="2dp">
+
+    </TextView>
+
+</RelativeLayout>
